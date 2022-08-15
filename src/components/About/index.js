@@ -6,9 +6,9 @@ import Col from "react-bootstrap/Col"
 function About() {
   return (
     <Container className="mt-3">
-      <Row>
-        <Col xs={3}><img src={require('../../assets/images/chase-profile-small.jpeg')} /></Col>
-        <Col className="mt-5">
+      <Row className="align-items-center">
+        <Col xs={6} lg={3}><img src={require('../../assets/images/chase-profile-small.jpeg')} /></Col>
+        <Col xs={6} lg={9} className="">
           <h2>About Me</h2>
           <p>
             Hi there! My name is Chase Skorczewski, and I am a Michigan State University Coding Bootcamp student. I have a passion for helping others, which lead me to become a paramedic. My goal is to use my knowledge of the medical field to eventually develop systems to better streamline patient care.

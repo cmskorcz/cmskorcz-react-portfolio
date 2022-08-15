@@ -5,9 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Navigation() {
   return (
-    <Navbar expand='md' bg='dark' variant="dark">
+    <Navbar expand='md' bg='dark' variant='dark'>
       <Container>
-        <Navbar.Brand href="#">Home</Navbar.Brand>
+        <Navbar.Brand href="#">cmskorcz</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
