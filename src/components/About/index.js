@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col"
 
 function About() {
   return (
-    <Container className="mt-3">
+    <Container className="mt-3" id="about">
       <Row className="align-items-center">
         <Col xs={6} lg={3}><img src={require('../../assets/images/chase-profile-small.jpeg')} /></Col>
         <Col xs={6} lg={9} className="">
