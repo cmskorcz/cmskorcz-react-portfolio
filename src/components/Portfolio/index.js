@@ -1,9 +1,17 @@
 import React from "react";
 import Container from "react-bootstrap/Container"
 
-function Portfolio() {
+function Portfolio({ projects }) {
   return (
-    <h2>Portfolio</h2>
+    <Container>
+      <ul>
+        {projects.map(project => (
+          <li>
+            <a href={`${project.link}`} target="_blank" rel="noreferrer" key={project.title}>{project.title}</a>
+          </li>
+        ))}
+      </ul>
+    </Container>
   )
 }
 

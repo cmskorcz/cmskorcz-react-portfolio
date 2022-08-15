@@ -7,7 +7,7 @@ function About() {
   return (
     <Container className="mt-3" id="about">
       <Row className="align-items-center">
-        <Col xs={6} lg={3}><img src={require('../../assets/images/chase-profile-small.jpeg')} /></Col>
+        <Col xs={6} lg={3}><img src={require('../../assets/images/chase-profile-small.jpeg')} alt='Chase Skorczewski' /></Col>
         <Col xs={6} lg={9} className="">
           <h2>About Me</h2>
           <p>

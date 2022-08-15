@@ -6,8 +6,9 @@ import Portfolio from './components/Portfolio';
 
 function App() {
   const [pages] = useState([{ name: 'about '}, { name: 'portfolio' }, { name: 'contact' }, { name: 'resume' }]);
-
   const [currentPage, setCurrentPage] = useState(pages[0])
+
+  const [projects] = useState([{ title: 'Project 1', link: 'https://google.com' }]);
 
   return (
     <>
@@ -18,7 +19,9 @@ function App() {
     />
     <main>
       <About />
-      <Portfolio />
+      <Portfolio
+        projects={projects}
+      />
     </main>
     <Footer />
     </>
