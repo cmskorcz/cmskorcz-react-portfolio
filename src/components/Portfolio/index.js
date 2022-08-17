@@ -11,9 +11,12 @@ function Portfolio({ projects }) {
         {projects.map(project => (
           <Col key={`${project.title}`}>
             <Card>
-              <Card.Img style={{ objectFit: 'cover', height: '18rem', objectPosition: '0% 0%' }} src={require(`../../assets/images/${project.img}`)} alt={`${project.title}`}/>
-              <Card.Title>{project.title}</Card.Title>
-              <Card.Link href={`${project.link}`} target="_blank" rel="noreferrer">Click to Visit</Card.Link>
+              <Card.Img variant="top" style={{ objectFit: 'cover', height: '18rem', objectPosition: '0% 0%' }} src={require(`../../assets/images/${project.img}`)} alt={`${project.title}`}/>
+              <Card.Body>
+                <Card.Title>{project.title}</Card.Title>
+                <Card.Link href={`${project.link}`} target="_blank" rel="noreferrer">Click to Visit Site</Card.Link>
+                <Card.Link href={`${project.repo}`} target="_blank" rel="noreferrer">Click to Visit Repo</Card.Link>
+              </Card.Body>
             </Card>
           </Col>
         ))}
