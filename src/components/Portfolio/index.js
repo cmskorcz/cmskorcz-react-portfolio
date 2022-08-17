@@ -4,10 +4,11 @@ import Container from "react-bootstrap/Container"
 function Portfolio({ projects }) {
   return (
     <Container>
-      <ul>
+      <ul className="mb-5">
         {projects.map(project => (
-          <li>
-            <a href={`${project.link}`} target="_blank" rel="noreferrer" key={project.title}>{project.title}</a>
+          <li key={`${project.title}`}>
+            <img src={require(`../../assets/images/${project.img}`)} alt={`${project.title}`} />
+            <a href={`${project.link}`} target="_blank" rel="noreferrer">{project.title}</a>
           </li>
         ))}
       </ul>

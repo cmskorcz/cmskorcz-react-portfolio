@@ -4,7 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 
 function Footer() {
   return (
-    <Container fluid className="bg-dark fixed-bottom pt-3">
+    <Container fluid className="bg-dark pt-3">
       <h2 className="text-light">Contact Information:</h2>
       <ListGroup variant="flush">
         <ListGroup.Item className="bg-dark text-light">Email: <a href="mailto:chaseskorey@gmail.com" className="text-reset">chaseskorey@gmail.com</a></ListGroup.Item>
