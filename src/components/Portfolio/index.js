@@ -6,7 +6,7 @@ import Project from "../Project";
 
 function Portfolio({ projects }) {
   return (
-    <Container>
+    <Container className="my-3">
       <Row xs={1} md={2} className="g-4">
         {projects.map(project => (
           <Col key={`${project.title}`}>
