@@ -4,11 +4,12 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/ContactForm';
+import "./App.css"
 
 function App() {
-  const [pages] = useState([{ name: 'about '}, { name: 'portfolio' }, { name: 'contact' }, { name: 'resume' }]);
-  const [currentPage, setCurrentPage] = useState(pages[0])
+  const [pages] = useState([{ name: 'about'}, { name: 'portfolio' }, { name: 'contact' }, { name: 'resume' }]);
 
+  const [currentPage, setCurrentPage] = useState(pages[0])
   const [projects] = useState([
     { 
       title: 'Photo Port',
@@ -44,11 +45,13 @@ function App() {
       setCurrentPage={setCurrentPage}  
     />
     <main>
-      <About />
-      <Portfolio
+      { currentPage.name === 'about' && <About /> }
+      { currentPage.name === 'portfolio' && (
+        <Portfolio
         projects={projects}
-      />
-      <ContactForm />
+        />
+      )}
+      { currentPage.name === 'contact' && <ContactForm /> }
     </main>
     <Footer />
     </>
