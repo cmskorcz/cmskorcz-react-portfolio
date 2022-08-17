@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/ContactForm';
 
 function App() {
   const [pages] = useState([{ name: 'about '}, { name: 'portfolio' }, { name: 'contact' }, { name: 'resume' }]);
@@ -47,6 +48,7 @@ function App() {
       <Portfolio
         projects={projects}
       />
+      <ContactForm />
     </main>
     <Footer />
     </>
