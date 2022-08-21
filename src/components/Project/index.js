@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card"
 
 function Project({ title, link, repo, img }) {
   return (
-    <Card>
+    <Card className="border-dark">
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Link href={`${link}`} target="_blank" rel="noreferrer">Click to Visit Site</Card.Link>

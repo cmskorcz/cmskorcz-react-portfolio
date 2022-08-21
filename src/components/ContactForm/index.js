@@ -42,9 +42,9 @@ function ContactForm() {
           <Alert.Heading>Please fill out all fields!</Alert.Heading>
         </Alert>
       )}
-      <h2>Contact Form</h2>
       <Row>
         <Col md={6}>
+          <h2>Contact Form</h2>
           <Form noValidate validated={validated}>
 
             <Form.Group className="mb-3" controlId="name">
