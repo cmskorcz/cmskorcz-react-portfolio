@@ -34,6 +34,18 @@ function App() {
       link: 'https://programmingastorm.github.io/FurEverHome/',
       repo: 'https://github.com/ProgrammingAStorm/FurEverHome',
       img: 'fur-ever-home-medium.jpeg'
+    },
+    {
+      title: 'Run Buddy',
+      link: 'https://cmskorcz.github.io/run-buddy/',
+      repo: 'https://github.com/cmskorcz/run-buddy',
+      img: 'run-buddy-medium.jpeg'
+    },
+    {
+      title: 'City Weather Application',
+      link: 'https://cmskorcz.github.io/city-weather-app/',
+      repo: 'https://github.com/cmskorcz/city-weather-app',
+      img: 'city-weather-app-medium.jpeg'
     }
   ]);
 
