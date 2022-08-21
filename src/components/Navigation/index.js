@@ -24,6 +24,7 @@ function Navigation(props) {
             { pages.map(page => (
               <Nav.Link key={page.name} onClick={() => setCurrentPage(page)}>{capitalizeFirstLetter(page.name)}</Nav.Link>
             ))}
+            <Nav.Link key="resume" href="/static/resume.pdf" download="cmskorcz_resume.pdf">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

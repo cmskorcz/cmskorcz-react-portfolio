@@ -7,7 +7,7 @@ import ContactForm from './components/ContactForm';
 import "./App.css"
 
 function App() {
-  const [pages] = useState([{ name: 'about'}, { name: 'portfolio' }, { name: 'contact' }, { name: 'resume' }]);
+  const [pages] = useState([{ name: 'about'}, { name: 'portfolio' }, { name: 'contact' }]);
 
   const [currentPage, setCurrentPage] = useState(pages[0])
   const [projects] = useState([
