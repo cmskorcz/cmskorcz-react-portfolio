@@ -44,7 +44,7 @@ function App() {
       currentPage={currentPage}
       setCurrentPage={setCurrentPage}  
     />
-    <main>
+    <main className='d-flex'>
       { currentPage.name === 'about' && <About /> }
       { currentPage.name === 'portfolio' && (
         <Portfolio

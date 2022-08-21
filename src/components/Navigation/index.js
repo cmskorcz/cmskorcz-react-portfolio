@@ -17,7 +17,7 @@ function Navigation(props) {
   return (
     <Navbar expand='md' bg='dark' variant='dark'>
       <Container>
-        <Navbar.Brand href="#">cmskorcz</Navbar.Brand>
+        <Navbar.Brand href="#" className="d-none d-md-inline">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
