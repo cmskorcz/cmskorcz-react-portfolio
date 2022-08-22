@@ -1,4 +1,8 @@
 # My React Portfolio ![GitHub license](https://img.shields.io/badge/license-Unlicensed-blue)
+## Deployed Site
+[Cmskorcz Portfolio Page](https://cmskorcz.github.io/cmskorcz-react-portfolio/)
+## Screenshot
+![Site Screenshot](/public/cmskorcz-portfolio-image.jpeg)
 ## Description
 A single page application designed using React. The portfolio site includes an about, portfolio, contact, and resume section. At this time no backend functionality has been integrated.
 ## Table of Contents
