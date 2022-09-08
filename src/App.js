@@ -11,6 +11,12 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages[0])
   const [projects] = useState([
+    {
+      title: 'Community Event Calender',
+      link: 'https://whispering-crag-28124.herokuapp.com/',
+      repo: 'https://github.com/fpierreRun/Group-3-MVP',
+      img: 'mern-stack.jpeg'
+    },
     { 
       title: 'Photo Port',
       link: 'https://cmskorcz.github.io/photo-port/',
